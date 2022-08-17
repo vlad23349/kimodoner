@@ -6,7 +6,7 @@
 .navigation__link {
   list-style: none;
   padding-right: 42px;
-  cursor: url('/images/cursorClick.png'), pointer;
+  cursor: url('images/cursorClick.png'), pointer;
   transition: all 0.2s ease-in;
   &:hover {
     color: #ac4042;
