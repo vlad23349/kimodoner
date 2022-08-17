@@ -16,7 +16,7 @@
 
 .btn-next,
 .btn-prev {
-  cursor: url('/images/cursorClick.png'), pointer;
+  cursor: url('images/cursorClick.png'), pointer;
   position: relative;
   bottom: 325px;
   width: auto;
@@ -45,7 +45,7 @@
 }
 
 .dot {
-  cursor: url('/images/cursorClick.png'), pointer;
+  cursor: url('images/cursorClick.png'), pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
