@@ -1,0 +1,20 @@
+.logo__svg {
+  display: inline-block;
+  background: url('../../images/finalLogo.svg');
+  width: 400px;
+  height: 64px;
+  background-repeat: no-repeat;
+  transform-box: fill-box;
+  animation: scale 6s linear infinite alternate;
+  animation-direction: alternate;
+  transform-origin: 50% 50%;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}

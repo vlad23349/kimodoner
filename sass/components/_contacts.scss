@@ -1,0 +1,30 @@
+.contacts {
+  position: absolute;
+  background-color: #ac4042;
+  width: max-content;
+  text-align: left;
+  padding: 50px;
+  bottom: 550px;
+  left: 90px;
+  margin-bottom: -320px;
+}
+.contacts__header {
+  margin: 0 0 30px 0;
+  font-size: 37px;
+}
+.contacts__mail {
+  display: block;
+  margin-bottom: 30px;
+  transition: all 0.2s ease-in;
+  &:hover {
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+      saturate(600%) contrast(0.8);
+  }
+}
+.contacts__phone {
+  transition: all 0.2s ease-in;
+  &:hover {
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+      saturate(600%) contrast(0.8);
+  }
+}

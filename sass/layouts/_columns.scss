@@ -1,0 +1,17 @@
+.layout-x-column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.layout-3-column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  &:after {
+    content: '';
+    width: 32%;
+    display: block;
+  }
+}
