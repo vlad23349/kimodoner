@@ -1,0 +1,30 @@
+.about-us__header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  margin: 82px 0px;
+}
+.about-us__header::after {
+  content: '';
+  display: block;
+  position: relative;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -32px;
+  width: 60px;
+  height: 2px;
+  background-color: #ac4042;
+}
+.about-us__text {
+  margin: 20px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Alegreya;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+}

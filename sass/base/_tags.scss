@@ -1,0 +1,79 @@
+.menu__tags {
+  margin-bottom: 31px;
+}
+.tags {
+  display: flex;
+  flex-flow: row wrap;
+  > * {
+    margin: 7px 7px 7px 7px;
+  }
+}
+.tag {
+  cursor: url('/images/cursorClick.png'), pointer;
+  border-radius: 90px;
+  padding: 2px 14px;
+  overflow: hidden;
+  transition: all 0.2s ease-in;
+  -webkit-user-select: none;
+  &:hover {
+    transform: scale(1.05);
+  }
+  &_selected {
+    background-color: #ac4042;
+    border: 2px solid #ac4042;
+    animation: gradient 100ms;
+  }
+  &_bordered {
+    border: 2px solid #ac4042;
+  }
+  &_colored {
+    display: none;
+    background-color: #454545;
+    margin-bottom: 8px;
+    max-height: 20px;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background: radial-gradient(
+      circle at center,
+      rgba(255, 125, 125, 0) 0%,
+      #1a1a1a,
+      #1a1a1a 100%
+    );
+  }
+  25% {
+    background: radial-gradient(
+      circle at center,
+      #ac4042 24%,
+      #1a1a1a 25%,
+      #1a1a1a 100%
+    );
+  }
+  50% {
+    background: radial-gradient(
+      circle at center,
+      #ac4042 49%,
+      #1a1a1a 50%,
+      #1a1a1a 100%
+    );
+  }
+  75% {
+    background: radial-gradient(
+      circle at center,
+      #ac4042 74%,
+      #1a1a1a 75%,
+      #1a1a1a 100%
+    );
+  }
+  100% {
+    color: #fff;
+    background: radial-gradient(
+      circle at center,
+      #ac4042 99%,
+      #1a1a1a 100%,
+      #1a1a1a 100%
+    );
+  }
+}
